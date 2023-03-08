@@ -1,1 +1,99 @@
 /* CSS stillerinizi buraya girin */
+* {
+  color: #454545;
+  font-family: Lexend Tera, Calibri;
+}
+.containerClamp {
+  width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(#fff4d2, #ffffff);
+}
+header {
+  background-color: #e5d1fa;
+}
+.ust-bilgi {
+  padding: 5px;
+  display: flex;
+}
+h1 {
+  flex: 1;
+}
+nav {
+  flex: 0;
+}
+
+.iconlar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ismimvebutonlar {
+  margin-top: 50px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: calibri;
+}
+h2 {
+  padding: 10px;
+}
+.butonlar {
+  margin: 20px;
+  list-style-type: none;
+  padding-inline: 20px;
+  display: flex;
+  gap: 2px;
+  justify-content: space-around;
+}
+.anasayfa {
+  background-color: #e5d1fa;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.hakkimda {
+  background-color: #e5d1fa;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.iletisim {
+  background-color: #e5d1fa;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.projelerim {
+  background-color: #e5d1fa;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.projelerim-isim {
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 100px;
+  padding: 5%;
+  background: linear-gradient(#e3dffd, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fotograflar {
+  text-align: center;
+}
+img {
+  margin: 100px;
+
+  display: inline-flex;
+}
+footer {
+  text-align: center;
+}
